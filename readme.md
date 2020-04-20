@@ -13,3 +13,7 @@
 ```
 yarn global add @danakt/pshe
 ```
+if yarn on macOS can't create binary file, link it:
+```
+ln -sf ~/.config/yarn/global/node_modules/@danakt/pshe/pshe /usr/local/bin/пше
+```
